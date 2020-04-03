@@ -13,7 +13,11 @@ def long_planeteer_calls (calls_long)
   i = 0
   block_return_values = []
   while i < calls_long.length
-    block_return_values << yield(calls_long[i])
+    if (calls_long[i].length > 4)
+      block_return_values << true
+    else
+      block_return_values << false
+    end
     i = i + 1
   end
  
