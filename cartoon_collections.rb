@@ -35,6 +35,6 @@ def find_the_cheese (food)
       return ("cheddar")
     elsif cheese.include ("gouda")
       return ("gouda")
-    elsif cheese.include ("gouda")
+    elsif cheese.include ("camembert")
       return ("gouda")
 end
