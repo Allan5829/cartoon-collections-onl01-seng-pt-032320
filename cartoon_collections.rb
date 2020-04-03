@@ -31,4 +31,5 @@ end
 def find_the_cheese (food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   food.each_with_index do |cheese|
+    if cheese.include
 end
