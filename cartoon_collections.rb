@@ -1,7 +1,7 @@
 array = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(array)
-  my_each(array) do |i|
+  each_with_index(array) do |i|
     puts i
   end
 end
