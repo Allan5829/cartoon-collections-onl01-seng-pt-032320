@@ -33,5 +33,6 @@ def find_the_cheese (food)
   food.each_with_index do |cheese|
     if cheese.include ("cheddar")
       return ("cheddar")
-    elsif cheese.include 
+    elsif cheese.include ("gouda")
+      return ("gouda")
 end
