@@ -40,6 +40,6 @@ def find_the_cheese (food)
     end
   end
   if (i = 3)
-    return "nil"
+    return nil
   end
 end
