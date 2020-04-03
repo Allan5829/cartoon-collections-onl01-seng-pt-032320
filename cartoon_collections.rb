@@ -1,7 +1,5 @@
-array = ["Doc", "Dopey", "Bashful", "Grumpy"]
-
-def roll_call_dwarves(array)
-  each_with_index(array) do |i|
+def roll_call_dwarves(dwarves)
+  each_with_index(dwarves) do |i|
     puts i
   end
 end
