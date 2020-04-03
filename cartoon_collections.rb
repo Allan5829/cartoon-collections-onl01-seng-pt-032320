@@ -36,5 +36,8 @@ def find_the_cheese (food)
     elsif cheese.include ("gouda")
       return ("gouda")
     elsif cheese.include ("camembert")
-      return ("gouda")
+      return ("camembert")
+    else
+      return ("nil")
+    end
 end
