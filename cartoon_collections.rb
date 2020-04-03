@@ -30,15 +30,15 @@ end
 
 def find_the_cheese (food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.each_with_index do |cheese|
-    if cheese.include? ("cheddar")
-      puts ("cheddar")
-    elsif cheese.include? ("gouda")
-      puts ("gouda")
-    elsif cheese.include? ("camembert")
-      puts ("camembert")
+  i = 0
+  while i < 3
+    if (food.include? "#{cheese_types[i]}")
+      return "#{cheese_types[i]}"
+      i = i + 5
     else
-      puts ("nil")
+      i = i + 1
     end
   end
+  if (i == 3)
+    return "nil"
 end
