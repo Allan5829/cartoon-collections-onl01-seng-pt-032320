@@ -32,7 +32,7 @@ def find_the_cheese (food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   i = 0
   while i < 3
-    if (food.include "#{cheese_types[i]}")
+    if (food.include? "#{cheese_types[i]}")
   
     i = i + 1
   end
