@@ -12,8 +12,8 @@ end
 def long_planeteer_calls (calls_long)
   i = 0
   block_return_values = []
-  while i < collection.length
-    block_return_values << yield(collection[i])
+  while i < calls_long.length
+    block_return_values << yield(calls_long[i])
     i = i + 1
   end
  
