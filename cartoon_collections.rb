@@ -32,13 +32,13 @@ def find_the_cheese (food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   food.each_with_index do |cheese|
     if cheese.include ("cheddar")
-      return ("cheddar")
+      puts ("cheddar")
     elsif cheese.include ("gouda")
-      return ("gouda")
+      puts ("gouda")
     elsif cheese.include ("camembert")
-      return ("camembert")
+      puts ("camembert")
     else
-      return ("nil")
+      puts ("nil")
     end
   end
 end
